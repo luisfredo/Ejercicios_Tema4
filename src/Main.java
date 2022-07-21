@@ -23,7 +23,7 @@ public class Main {
             numeroDoWhile= numeroDoWhile + 1;
             System.out.println(numeroDoWhile);
 
-        } while (numeroWhile<3);
+        } while (numeroDoWhile<3);
 
         //For
         for(int numeroFor = 0; numeroFor <= 3; numeroFor = numeroFor+1){
