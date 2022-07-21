@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        //If
         int numeroIf = 1;
-        int numeroWhile = 0;
-        String estacion = "invierno";
-
         if(numeroIf > 0) {
             System.out.println("Es positivo");
         } else if(numeroIf < 0){
@@ -12,22 +10,27 @@ public class Main {
             System.out.println("Es cero");
         }
 
+        //While
+        int numeroWhile = 0;
         while (numeroWhile<3) {
-            System.out.println(numeroWhile);
             numeroWhile= numeroWhile + 1;
-
+            System.out.println(numeroWhile);
         }
 
+        //Do While
+        int numeroDoWhile = 3;
         do{
-            System.out.println(numeroWhile);
-            numeroWhile= numeroWhile + 1;
+            numeroDoWhile= numeroDoWhile + 1;
+            System.out.println(numeroDoWhile);
 
         } while (numeroWhile<3);
 
+        //For
         for(int numeroFor = 0; numeroFor <= 3; numeroFor = numeroFor+1){
             System.out.println(numeroFor);
         }
-
+        //Switch
+        String estacion = "invierno";
         switch(estacion){
             case "verano":
                 System.out.println("Es verano");
